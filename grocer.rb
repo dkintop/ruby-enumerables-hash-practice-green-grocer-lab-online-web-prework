@@ -76,6 +76,7 @@ clearance_applied.each do |item, value|
   
 binding.pry
 end
+end
 
 
 
