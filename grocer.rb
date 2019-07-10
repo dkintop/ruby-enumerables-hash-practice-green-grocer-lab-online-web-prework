@@ -64,9 +64,12 @@ def checkout(cart, coupons)
 
 cart = consolidate_cart(cart)
 
-v = apply_coupons(cart, coupons)
-binding.pry
-cart
+coupons_applied = apply_coupons(cart, coupons)
+
+
+
+
+coupons_applied
 end
 
 
