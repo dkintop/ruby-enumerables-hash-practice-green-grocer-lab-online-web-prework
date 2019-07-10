@@ -73,7 +73,7 @@ clearance_applied
 
 total = 0
 clearance_applied.each do |item, value|
-  
+  value[:price] * value[:count]
 binding.pry
 end
 end
