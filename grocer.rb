@@ -77,7 +77,7 @@ clearance_applied.each do |item, value|
 total = total_price + total
 
 end
-
+binding.pry
 end
 
 
