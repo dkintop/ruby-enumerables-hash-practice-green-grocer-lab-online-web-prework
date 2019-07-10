@@ -68,7 +68,7 @@ coupons_applied = apply_coupons(cart, coupons)
 
 clearance_applied = apply_clearance(coupons_applied)
 
-
+binding.pry
 clearance_applied
 end
 
