@@ -1,3 +1,4 @@
+require "pry"
 def consolidate_cart(cart)
 i = 0 
   while i < cart.length do
